@@ -1,4 +1,4 @@
-const CloudFrontSigner = require('./lib/cloudfront-signer');
+const CloudFrontSigner = require('./cloudfront-signer');
 const signer = new CloudFrontSigner({
     key : process.env.CF_KEY
     , keyPairId : process.env.CF_KEY_PAIR_ID
